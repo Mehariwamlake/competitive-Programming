@@ -1,6 +1,6 @@
 m = "hello"
  
-def chatRoom():
+def chat():
   x = 0
   s = input()
   for i in range(len(s)):
@@ -9,4 +9,4 @@ def chatRoom():
     if x == 5:
       return "YES"
   return "NO"
-print(chatRoom())
+print(chat())
